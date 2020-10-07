@@ -1,0 +1,322 @@
+{
+  "adventure": {
+    "room": [
+      {
+        "id": 100,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 101,"dir": "N"},
+          {"id": 111,"dir": "NE"},
+          {"id": 110,"dir": "E"}
+        ]
+      },
+      {
+        "id": 110,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 111,"dir": "N"},
+          {"id": 121,"dir": "NE"},
+          {"id": 120,"dir": "E"},
+          {"id": 100,"dir": "W"},
+          {"id": 101,"dir": "NW"}
+        ]
+      },
+      {
+        "id": 120,
+        "player_start": "true",
+        "entrance": [
+          {"id": 121,"dir": "N"},
+          {"id": 131,"dir": "NE"},
+          {"id": 130,"dir": "E"},
+          {"id": 110,"dir": "W"},
+          {"id": 111,"dir": "NW"}
+        ]
+      },
+      {
+        "id": 130,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 131,"dir": "N"},
+          {"id": 141,"dir": "NE"},
+          {"id": 140,"dir": "E"},
+          {"id": 120,"dir": "W"},
+          {"id": 121,"dir": "NW"}
+        ]
+      },
+      {
+        "id": 140,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 141,"dir": "N"},
+          {"id": 130,"dir": "W"},
+          {"id": 131,"dir": "NW"}
+        ]
+      },
+      {
+        "id": 101,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 102,"dir": "N"},
+          {"id": 112,"dir": "NE"},
+          {"id": 111,"dir": "E"},
+          {"id": 110,"dir": "SE"},
+          {"id": 100,"dir": "S"}
+        ]
+      },
+      {
+        "id": 111,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 112,"dir": "N"},
+          {"id": 122,"dir": "NE"},
+          {"id": 121,"dir": "E"},
+          {"id": 120,"dir": "SE"},
+          {"id": 110,"dir": "S"},
+          {"id": 100,"dir": "SW"},
+          {"id": 101,"dir": "W"},
+          {"id": 102,"dir": "NW"}
+        ]
+      },
+      {
+        "id": 121,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 122,"dir": "N"},
+          {"id": 132,"dir": "NE"},
+          {"id": 131,"dir": "E"},
+          {"id": 130,"dir": "SE"},
+          {"id": 120,"dir": "S"},
+          {"id": 110,"dir": "SW"},
+          {"id": 111,"dir": "W"},
+          {"id": 112,"dir": "NW"}
+        ]
+      },
+      {
+        "id": 131,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 132,"dir": "N"},
+          {"id": 142,"dir": "NE"},
+          {"id": 141,"dir": "E"},
+          {"id": 140,"dir": "SE"},
+          {"id": 130,"dir": "S"},
+          {"id": 120,"dir": "SW"},
+          {"id": 121,"dir": "W"},
+          {"id": 122, "dir": "NW"}
+        ]
+      },
+      {
+        "id": 141,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 142,"dir": "N"},
+          {"id": 140,"dir": "S"},
+          {"id": 130,"dir": "SW"},
+          {"id": 131,"dir": "W"},
+          {"id": 132, "dir": "NW"}
+        ]
+      },
+      {
+        "id": 102,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 103,"dir": "N"},
+          {"id": 113,"dir": "NE"},
+          {"id": 112,"dir": "E"},
+          {"id": 111,"dir": "SE"},
+          {"id": 101,"dir": "S"}
+        ]
+      },
+      {
+        "id": 112,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 113,"dir": "N"},
+          {"id": 123,"dir": "NE"},
+          {"id": 122,"dir": "E"},
+          {"id": 121,"dir": "SE"},
+          {"id": 111,"dir": "S"},
+          {"id": 101,"dir": "SW"},
+          {"id": 102,"dir": "W"},
+          {"id": 103, "dir": "NW"}
+        ]
+      },
+      {
+        "id": 122,
+        "player_start": "false",
+        "goal_start": "true",
+        "entrance": [
+          {"id": 123,"dir": "N"},
+          {"id": 133,"dir": "NE"},
+          {"id": 132,"dir": "E"},
+          {"id": 131,"dir": "SE"},
+          {"id": 121,"dir": "S"},
+          {"id": 111,"dir": "SW"},
+          {"id": 112,"dir": "W"},
+          {"id": 113, "dir": "NW"}
+        ]
+      },
+      {
+        "id": 132,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 133,"dir": "N"},
+          {"id": 143,"dir": "NE"},
+          {"id": 142,"dir": "E"},
+          {"id": 141,"dir": "SE"},
+          {"id": 131,"dir": "S"},
+          {"id": 121,"dir": "SW"},
+          {"id": 122,"dir": "W"},
+          {"id": 123, "dir": "NW"}
+        ]
+      },
+      {
+        "id": 142,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 143,"dir": "N"},
+          {"id": 141,"dir": "S"},
+          {"id": 131,"dir": "SW"},
+          {"id": 132,"dir": "W"},
+          {"id": 133, "dir": "NW"}
+        ]
+      },
+      {
+        "id": 103,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 104,"dir": "N"},
+          {"id": 114,"dir": "NE"},
+          {"id": 113,"dir": "E"},
+          {"id": 112,"dir": "SE"},
+          {"id": 102,"dir": "S"}
+        ]
+      },
+      {
+        "id": 113,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 114,"dir": "N"},
+          {"id": 124,"dir": "NE"},
+          {"id": 123,"dir": "E"},
+          {"id": 122,"dir": "SE"},
+          {"id": 112,"dir": "S"},
+          {"id": 102,"dir": "SW"},
+          {"id": 103,"dir": "W"},
+          {"id": 104, "dir": "NW"}
+        ]
+      },
+      {
+        "id": 123,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 124,"dir": "N"},
+          {"id": 134,"dir": "NE"},
+          {"id": 133,"dir": "E"},
+          {"id": 132,"dir": "SE"},
+          {"id": 122,"dir": "S"},
+          {"id": 112,"dir": "SW"},
+          {"id": 113,"dir": "W"},
+          {"id": 114, "dir": "NW"}
+        ]
+      },
+      {
+        "id": 133,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 134,"dir": "N"},
+          {"id": 144,"dir": "NE"},
+          {"id": 143,"dir": "E"},
+          {"id": 142,"dir": "SE"},
+          {"id": 132,"dir": "S"},
+          {"id": 122,"dir": "SW"},
+          {"id": 123,"dir": "W"},
+          {"id": 124, "dir": "NW"}
+        ]
+      },
+      {
+        "id": 143,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 144,"dir": "N"},
+          {"id": 142,"dir": "S"},
+          {"id": 132,"dir": "SW"},
+          {"id": 133,"dir": "W"},
+          {"id": 134, "dir": "NW"}
+        ]
+      },
+      {
+        "id": 104,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 114,"dir": "E"},
+          {"id": 113,"dir": "SE"},
+          {"id": 103,"dir": "S"}
+        ]
+      },
+      {
+        "id": 114,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 124,"dir": "E"},
+          {"id": 123,"dir": "SE"},
+          {"id": 113,"dir": "S"},
+          {"id": 103,"dir": "SW"},
+          {"id": 104,"dir": "W"}
+        ]
+      },
+      {
+        "id": 124,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 134,"dir": "E"},
+          {"id": 133,"dir": "SE"},
+          {"id": 123,"dir": "S"},
+          {"id": 113,"dir": "SW"},
+          {"id": 114,"dir": "W"}
+        ]
+      },
+      {
+        "id": 134,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 144,"dir": "E"},
+          {"id": 143,"dir": "SE"},
+          {"id": 133,"dir": "S"},
+          {"id": 123,"dir": "SW"},
+          {"id": 124,"dir": "W"}
+        ]
+      },
+      {
+        "id": 144,
+        "player_start": "false",
+        "goal_start": "false",
+        "entrance": [
+          {"id": 143,"dir": "S"},
+          {"id": 133,"dir": "SW"},
+          {"id": 134,"dir": "W"}
+        ]
+      },
+}

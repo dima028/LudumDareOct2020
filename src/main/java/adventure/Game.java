@@ -32,7 +32,8 @@ public class Game{
 
         Game game = new Game();
         System.out.println("Welcome to the GAME!");
-        filename = "5x5_dungeon.json";
+        Scanner scanner = new Scanner(System.in);  // Create a Scanner object
+        String filename = "5x5_dungeon.json";
         
 
         // Instantiate JSON adventure object

@@ -8,12 +8,18 @@
 
 #### To Do:
 * improve user interface: minimap to demonstrate user & flag
-        ```[ ][ ][ ][ ][ ]```
-        ```[ ][ ][ ][ ][ ]```
-        ```[ ][ ][*][ ][ ]```
-        ```[ ][ ][ ][ ][ ]```
-        ```[ ][ ][o][ ][ ]```
+* example:
 
-* implement responsive flag motion
+```[ ][ ][ ][ ][ ]```
+
+```[ ][ ][ ][ ][ ]```
+ 
+ ```[ ][ ][*][ ][ ]```
+ 
+ ```[ ][ ][ ][ ][ ]```
+ 
+ ```[ ][ ][o][ ][ ]```
+
+* implement responsive flag motion:
     * measure distance from each block surrounding flag to user
     * move flag to furthest block

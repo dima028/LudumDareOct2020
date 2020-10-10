@@ -82,6 +82,7 @@ public class Game{
                         // if entrance option exists, go to new room
                         if (userCommand.equals(entranceDir)){
                             currentRoomId = (long) currentEntranceJSON.get("id");
+                            System.out.printf("you are in room: " + currentRoomId);
                             invalidRoom = false;
                         }
                     }

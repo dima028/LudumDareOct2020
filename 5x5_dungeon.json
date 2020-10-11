@@ -1,7 +1,7 @@
 {
   "adventure": {
-    "room": [
-      {"100": 
+    "room": {
+      "100": 
         {
           "id": 100,
           "player_start": "false",
@@ -11,9 +11,8 @@
             {"id": 111,"dir": "NE"},
             {"id": 110,"dir": "E"}
           ]
-        }
-      },
-      {"110":{
+        },
+      "110":{
         "id": 110,
         "player_start": "false",
         "goal_start": "false",
@@ -24,10 +23,11 @@
           {"id": 100,"dir": "W"},
           {"id": 101,"dir": "NW"}
         ]
-      }},
-      {"120":{
+      },
+      "120":{
         "id": 120,
         "player_start": "true",
+        "goal_start": "false",
         "entrance": [
           {"id": 121,"dir": "N"},
           {"id": 131,"dir": "NE"},
@@ -35,8 +35,8 @@
           {"id": 110,"dir": "W"},
           {"id": 111,"dir": "NW"}
         ]
-      }},
-      {"130":{
+      },
+      "130":{
         "id": 130,
         "player_start": "false",
         "goal_start": "false",
@@ -47,8 +47,8 @@
           {"id": 120,"dir": "W"},
           {"id": 121,"dir": "NW"}
         ]
-      }},
-      {"140":{
+      },
+      "140":{
         "id": 140,
         "player_start": "false",
         "goal_start": "false",
@@ -57,8 +57,8 @@
           {"id": 130,"dir": "W"},
           {"id": 131,"dir": "NW"}
         ]
-      }},
-      {"101":{
+      },
+      "101":{
         "id": 101,
         "player_start": "false",
         "goal_start": "false",
@@ -69,8 +69,8 @@
           {"id": 110,"dir": "SE"},
           {"id": 100,"dir": "S"}
         ]
-      }},
-      {"111":{
+      },
+      "111":{
         "id": 111,
         "player_start": "false",
         "goal_start": "false",
@@ -84,8 +84,8 @@
           {"id": 101,"dir": "W"},
           {"id": 102,"dir": "NW"}
         ]
-      }},
-      {"121":{
+      },
+      "121":{
         "id": 121,
         "player_start": "false",
         "goal_start": "false",
@@ -99,8 +99,8 @@
           {"id": 111,"dir": "W"},
           {"id": 112,"dir": "NW"}
         ]
-      }},
-      {"131":{
+      },
+      "131":{
         "id": 131,
         "player_start": "false",
         "goal_start": "false",
@@ -114,8 +114,8 @@
           {"id": 121,"dir": "W"},
           {"id": 122, "dir": "NW"}
         ]
-      }},
-      {"141":{
+      },
+      "141":{
         "id": 141,
         "player_start": "false",
         "goal_start": "false",
@@ -126,8 +126,8 @@
           {"id": 131,"dir": "W"},
           {"id": 132, "dir": "NW"}
         ]
-      }},
-      {"102":{
+      },
+      "102":{
         "id": 102,
         "player_start": "false",
         "goal_start": "false",
@@ -138,8 +138,8 @@
           {"id": 111,"dir": "SE"},
           {"id": 101,"dir": "S"}
         ]
-      }},
-      {"112":{
+      },
+      "112":{
         "id": 112,
         "player_start": "false",
         "goal_start": "false",
@@ -153,8 +153,8 @@
           {"id": 102,"dir": "W"},
           {"id": 103, "dir": "NW"}
         ]
-      }},
-      {"122":{
+      },
+      "122":{
         "id": 122,
         "player_start": "false",
         "goal_start": "true",
@@ -168,8 +168,8 @@
           {"id": 112,"dir": "W"},
           {"id": 113, "dir": "NW"}
         ]
-      }},
-      {"132":{
+      },
+      "132":{
         "id": 132,
         "player_start": "false",
         "goal_start": "false",
@@ -183,9 +183,9 @@
           {"id": 122,"dir": "W"},
           {"id": 123, "dir": "NW"}
         ]
-      }},
-      {"142":{
-        "id": 142,
+      },
+      "142":{
+      "id": 142,
         "player_start": "false",
         "goal_start": "false",
         "entrance": [
@@ -195,9 +195,9 @@
           {"id": 132,"dir": "W"},
           {"id": 133, "dir": "NW"}
         ]
-      }},
-      {"103":{
-        "id": 103,
+      },
+      "103":{
+      "id": 103,
         "player_start": "false",
         "goal_start": "false",
         "entrance": [
@@ -207,9 +207,9 @@
           {"id": 112,"dir": "SE"},
           {"id": 102,"dir": "S"}
         ]
-      }},
-      {"113":{
-        "id": 113,
+      },
+      "113":{
+      "id": 113,
         "player_start": "false",
         "goal_start": "false",
         "entrance": [
@@ -222,9 +222,9 @@
           {"id": 103,"dir": "W"},
           {"id": 104, "dir": "NW"}
         ]
-      }},
-      {"123":{
-        "id": 123,
+      },
+      "123":{
+      "id": 123,
         "player_start": "false",
         "goal_start": "false",
         "entrance": [
@@ -237,9 +237,9 @@
           {"id": 113,"dir": "W"},
           {"id": 114, "dir": "NW"}
         ]
-      }},
-      {"133":{
-        "id": 133,
+      },
+      "133":{
+      "id": 133,
         "player_start": "false",
         "goal_start": "false",
         "entrance": [
@@ -252,9 +252,9 @@
           {"id": 123,"dir": "W"},
           {"id": 124, "dir": "NW"}
         ]
-      }},
-      {"143":{
-        "id": 143,
+      },
+      "143":{
+      "id": 143,
         "player_start": "false",
         "goal_start": "false",
         "entrance": [
@@ -264,9 +264,9 @@
           {"id": 133,"dir": "W"},
           {"id": 134, "dir": "NW"}
         ]
-      }},
-      {"104":{
-        "id": 104,
+      },
+      "104":{
+      "id": 104,
         "player_start": "false",
         "goal_start": "false",
         "entrance": [
@@ -274,9 +274,9 @@
           {"id": 113,"dir": "SE"},
           {"id": 103,"dir": "S"}
         ]
-      }},
-      {"114":{
-        "id": 114,
+      },
+      "114":{
+      "id": 114,
         "player_start": "false",
         "goal_start": "false",
         "entrance": [
@@ -286,8 +286,8 @@
           {"id": 103,"dir": "SW"},
           {"id": 104,"dir": "W"}
         ]
-      }},
-      {"124":{
+      },
+      "124":{
         "id": 124,
         "player_start": "false",
         "goal_start": "false",
@@ -298,8 +298,8 @@
           {"id": 113,"dir": "SW"},
           {"id": 114,"dir": "W"}
         ]
-      }},
-      {"134":{
+      },
+      "134":{
         "id": 134,
         "player_start": "false",
         "goal_start": "false",
@@ -310,8 +310,8 @@
           {"id": 123,"dir": "SW"},
           {"id": 124,"dir": "W"}
         ]
-      }},
-      {"144":{
+      },
+      "144":{
         "id": 144,
         "player_start": "false",
         "goal_start": "false",
@@ -320,7 +320,7 @@
           {"id": 133,"dir": "SW"},
           {"id": 134,"dir": "W"}
         ]
-      }}
-    ]
+      }
+    }
   }
 }

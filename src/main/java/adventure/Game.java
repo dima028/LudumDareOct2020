@@ -21,8 +21,9 @@ public class Game{
 
     /* this is the class that runs the game.
     You may need some member variables */
-    private static long currentRoomId;
-    private static String currentRoomDescription;
+    private static int currentRoomId;
+    private static int currentFlagId = 122;
+    private static int startRoomId = 120;
 
     public static void main(String args[]){
 
@@ -44,50 +45,36 @@ public class Game{
         JSONObject adventureObject = (JSONObject) adventure_json.get("adventure");
 
         // getting next layer of JSON: "room"        
-        JSONArray roomArray = (JSONArray) adventureObject.get("room");
+        JSONObject roomObject = (JSONObject) adventureObject.get("room");
 
-        // 4. Print the beginning of the adventure
-        // iterating through rooms until it finds the starting room
-        for(Object currentRoom : roomArray) {
-            JSONObject currentRoomJSON = (JSONObject) currentRoom;
-            String currentRoomStart = (String) currentRoomJSON.get("player_start");
-            if (currentRoomStart.equals("true")){
-                currentRoomId = (long) currentRoomJSON.get("id");
-                break;
-            }
-        }
+        currentRoomId = startRoomId;
 
         // 5. Begin game loop here
-        Boolean userConsent = true;
-        while (userConsent == true) {
+        Boolean incompleteMaze = true;
+        while (incompleteMaze == true) {
 
             // 6. Get the user input. You'll need a Scanner
             String userCommand = scanner.nextLine();            
 
             // assume room doesn't exist unless proven otherwise
             boolean invalidRoom = true;
+            System.out.println(currentRoomId);
+            JSONObject currentRoomBody = (JSONObject) roomObject.get(currentRoomId);
+            System.out.println("currentRoomId object body: " + currentRoomBody);
+            
+            // // loop through all entrances in current room
+            // for(Object currentEntrance : currentRoomEntrances) {
+            //     JSONObject currentEntranceJSON = (JSONObject) currentEntrance;
+            //     String entranceDir = (String) currentEntranceJSON.get("dir");
 
-            // navigate to current room
-            for(Object currentRoomInLoop : roomArray) {
-                JSONObject currentRoomInLoopJSON = (JSONObject) currentRoomInLoop;
-                long currentRoomInLoopId = (long) currentRoomInLoopJSON.get("id");
-                if (currentRoomId == currentRoomInLoopId) {
-                    JSONArray currentRoomEntrances = (JSONArray) currentRoomInLoopJSON.get("entrance");
-                    
-                    // loop through all entrances in current room
-                    for(Object currentEntrance : currentRoomEntrances) {
-                        JSONObject currentEntranceJSON = (JSONObject) currentEntrance;
-                        String entranceDir = (String) currentEntranceJSON.get("dir");
+            //     // if entrance option exists, go to new room
+            //     if (userCommand.equals(entranceDir)){
+            //         currentRoomId = (long) currentEntranceJSON.get("id");
+            //         System.out.println("you are in room: " + currentRoomId);
+            //         invalidRoom = false;
+            //     }
+            // }
 
-                        // if entrance option exists, go to new room
-                        if (userCommand.equals(entranceDir)){
-                            currentRoomId = (long) currentEntranceJSON.get("id");
-                            System.out.printf("you are in room: " + currentRoomId);
-                            invalidRoom = false;
-                        }
-                    }
-                }
-            }
             if (invalidRoom == true) {
                 System.out.println("Invalid direction.");
             }

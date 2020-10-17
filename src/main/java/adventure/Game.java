@@ -59,9 +59,7 @@ public class Game{
             // assume room doesn't exist unless proven otherwise
             boolean invalidRoom = true;
             System.out.println(currentRoomId);
-            JSONObject currentRoomBody = (JSONObject) roomObject' // .get(currentRoomId);
-            System.out.println("currentRoomId object body: ");
-            System.out.println(currentRoomBody);
+            JSONObject currentRoomBody = (JSONObject) roomObject.get(currentRoomId);
             
             // // loop through all entrances in current room
             // for(Object currentEntrance : currentRoomEntrances) {

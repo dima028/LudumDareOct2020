@@ -77,6 +77,10 @@ public class Game{
             if (invalidRoom == true) {
                 System.out.println("Invalid direction.");
             }
+
+            // if (maze == complete){
+            //     incompleteMaze = false;
+            // }
         }  
     }
 
